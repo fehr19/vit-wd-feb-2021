@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+td {
+    background-color: white;
+    border: 10px solid black;
+}
+
+.images{
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.bottomPic{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+
+.topPic{
+    display: block;
+}
+
+#vitLogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 2em;
+    padding-bottom: 3em;
+}
+.headings{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 5em;
+    padding-top: 3em;
+}
+
+.contactHeading{
+    text-align: center;
+    text-decoration-line: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 5em;
+}
+
+#socials{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    margin-left: 10px;
+}
+
+#auction{
+    padding: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 4em;
+    border-bottom: 20px solid black;
+    border-top: 20px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
