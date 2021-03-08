@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(58, 56, 56);
+    width: 100vw;
+}
+img {
+    min-width: 500px;
+    height: 300px;
+}
+
+.window{
+    width: 500px;
+    height: 300px;  
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#buttonsDiv{
+    width: 500px;
+    margin: 0 auto;
+}
+
+@keyframes carousel{
+    from{
+        transform: translateX(0px);
+        }
+    to{
+        transform:translateX(-2500px);
+        }
+}
+
+#imgSlider{
+    display: flex;
+    animation-name: carousel;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+#imgBrowser{
+    display: flex;
+    animation-name: browser;
+}
+
+button {
+    position: relative;
+    width: 100px;
+    height: 50px;
+}
+#rightButton{
+    left: 60%;
+}
