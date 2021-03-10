@@ -1,7 +1,7 @@
 body {
   height: 99vh;
   width: 99vw;
-  background-image: -moz-linear-gradient(
+  background-image: linear-gradient(
     purple,
     violet,
     red,
@@ -22,7 +22,7 @@ body {
 
 #display {
   background-color: darkGrey;
-  height: 20%;
+  height: 300px;
   display: flex;
   justify-content: start;
   font-size: 15em;
@@ -38,7 +38,7 @@ button {
   flex: 25%;
   padding: 5%;
   font-size: 1.5em;
-  color: midnightblue;
+  color: black;
 }
 
 .number {
@@ -57,8 +57,8 @@ button {
   background-color: crimson;
 }
 
-.whyIsntThisWorking\?{
-background-image: url(https://www.nag.co.za/wp-content/uploads/2019/02/pikachu-shocked.png) !important;
+#whyIsntThisWorking\? {
+background-image: url(https://www.nag.co.za/wp-content/uploads/2019/02/pikachu-shocked.png);
 background-size: 100%;
 }
 
